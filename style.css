@@ -19,7 +19,7 @@ body {
 
 #container {
   max-width: 1120px;
-  width: 90%; /* Usa 90% da largura da tela em telas menores */
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -37,15 +37,16 @@ h1 {
 
 h1, h2 {
   color: #1B1B1B;
-  font-weight: bold; /* Corrigido */
-  font-size: 2.8rem; /* Corrigido */
+  font-weight: bold;
+  font-size: 2.8rem;
 }
 
 .title-page {
   width: 1120px;
-  height: 79px;
   margin-bottom: 3rem;
-  margin-top: 3rem;
+  padding-top: 4rem;
+  font: bold;
+  font-size: 16px;
 }
 
 .description-page {
@@ -88,6 +89,7 @@ h1, h2 {
 
 .travel-card p {
   margin-bottom: 2rem;
+  color: #333333;
 }
 
 .travel-card {
@@ -140,12 +142,13 @@ ul li {
 footer {
   text-align: center;
   margin: 6.5rem 0 4.8rem;
+  color: #333333;
 }
 
-@media (max-width: 76em) { /* Corrigido */
+@media (max-width: 76em) {
   #container {
     --max-width: 768px;
-    width: min(var(--max-width), 100% - 4.8rem); /* Ajustado */
+    width: min(var(--max-width), 100% - 4.8rem);
   }
 
   h1 {
