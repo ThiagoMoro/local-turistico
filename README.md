@@ -8,8 +8,8 @@ Desafio de projeto de um local turistico proposto durante as aulas sobre Fundame
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML(https://developer.mozilla.org/en-US/docs/Web/HTML)
-- CSS(https://developer.mozilla.org/en-US/docs/Web/CSS)
+- HTML   (https://developer.mozilla.org/en-US/docs/Web/HTML)
+- CSS    (https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ---
 
